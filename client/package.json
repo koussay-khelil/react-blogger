@@ -1,0 +1,50 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@okta/okta-react": "^1.0.2",
+    "@okta/okta-signin-widget": "^2.21.0",
+    "antd": "^3.16.3",
+    "axios": "^0.18.0",
+    "cleanup-dependencies": "0.0.6",
+    "eslint-config-airbnb": "^17.1.0",
+    "history": "^4.7.2",
+    "lodash": "^4.17.11",
+    "markdown-it": "^10.0.0",
+    "node-sass": "^4.11.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-gtm-module": "^2.0.4",
+    "react-helmet": "^5.2.0",
+    "react-markdown-editor-lite": "^0.4.3",
+    "react-md": "^1.9.2",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "react-router-hash-link": "^1.2.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.1",
+    "redux-dynamic-reducer": "^2.0.2",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^5.1.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

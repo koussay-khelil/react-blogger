@@ -1,0 +1,27 @@
+.tips{
+    .image{
+        @media (max-width: 1131px) and (min-width:100px){
+            width: 100%
+        }
+    }
+      .punchline{
+          width: 50%;
+          font-weight: bold;
+          font-size: 24px;
+          margin-bottom: 10px;
+       }  
+       .author{
+           margin-bottom: 10px;
+           font-size: 18px;
+       }
+       .advice{
+           font-weight: lighter;
+           font-size: 18px;
+           margin-bottom: 10px;
+       }
+       .date{
+           text-decoration: underline;
+           font-size: 14px;
+           font-weight: lighter;
+       }
+}

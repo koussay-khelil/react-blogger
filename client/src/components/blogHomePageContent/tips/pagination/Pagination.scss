@@ -1,0 +1,14 @@
+.pagination-buttons {
+    .pagination-button {
+        height: 57px !important;
+        min-width:45px !important;
+        font-size: 20px;
+    }
+    .pagination-button-active {
+        height: 57px !important;
+        min-width:45px !important;
+        font-size: 24px;
+        font-weight: bold;
+        color: #0d32d8 !important;
+    }
+}
